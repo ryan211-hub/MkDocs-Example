@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>P2 Project Documentation</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="assets/_mkdocstrings.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">P2 Project Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/ryan211-hub/MkDocs-Example/edit/master/docs/index.md" class="nav-link">Edit on ryan211-hub/MkDocs-Example
+                                    </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#p2-project" class="nav-link">P2 Project</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#python-version" class="nav-link">Python Version</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#modules" class="nav-link">Modules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#quick-start" class="nav-link">Quick Start</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hello.main_func" class="nav-link">main_func</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hello.calculations" class="nav-link">calculations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hello.my_func" class="nav-link">my_func</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="p2-project">P2 Project</h1>
+<p>This project is an example of how we can write a professional documentation using <code>mkdocs</code> module in Python.<br>
+To learn MarkDown notation, use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">Cheatsheet</a>.</p>
+<hr />
+<h2 id="python-version">Python Version</h2>
+<p>This project was built using <strong>Python 3.12.1</strong></p>
+<hr />
+<h2 id="modules">Modules</h2>
+<ul>
+<li>mkdocs &gt;= 1.6.1</li>
+<li>numpy &gt;= 2.1.3</li>
+<li>pandas &gt;= 2.2.3</li>
+<li>scikit-learn &gt;= 1.5.2</li>
+<li>seaborn &gt;= 0.13.2</li>
+<li>streamlit &gt;= 1.40.1</li>
+</ul>
+<hr />
+<h2 id="quick-start">Quick Start</h2>
+<p>To create a documentation with MkDocs, these are the main bash commands:</p>
+<ul>
+<li>Install mkdocs: <code>pip install mkdocs</code></li>
+<li>Create a new documentation folder: <code>mkdocs new .</code></li>
+<li><code>mkdocs.yml</code> is the file to customize the web page, such as creating tabs, changing titles and themes.</li>
+<li>The files in the folder <strong>docs</strong> are the ones to hold the documentation text, using MarkDown notation.</li>
+</ul>
+<hr />
+<h3 id="function">Function</h3>
+<p>These are the functions used in the code <code>hello.py</code></p>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="hello.main_func"></a>
+    <div class="doc doc-contents first">
+
+        <p>My function to say hello to the world from python</p>
+
+            <details class="quote">
+              <summary>Source code in <code>hello.py</code></summary>
+              <pre class="highlight"><code class="language-python">def main_func():
+    '''My function to say hello to the world from python'''
+    print("Hello from p2!")</code></pre>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="hello.calculations"></a>
+    <div class="doc doc-contents first">
+
+        <p>Calculate sum of two numbers
+* Inputs:
+    <em>n1: int or float
+    </em>n2: int or float</p>
+
+            <details class="quote">
+              <summary>Source code in <code>hello.py</code></summary>
+              <pre class="highlight"><code class="language-python">def calculations(n1,n2):
+    '''
+    Calculate sum of two numbers
+    * Inputs:
+        *n1: int or float
+        *n2: int or float
+    '''
+
+    return n1 + n2</code></pre>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="hello.my_func"></a>
+    <div class="doc doc-contents first">
+
+        <p>test
+new func test.</p>
+
+            <details class="quote">
+              <summary>Source code in <code>hello.py</code></summary>
+              <pre class="highlight"><code class="language-python">def my_func():
+    '''
+    test
+    new func test.
+    '''
+    pass</code></pre>
+            </details>
+    </div>
+
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2024-12-04 12:18:58.374076+00:00
+-->
