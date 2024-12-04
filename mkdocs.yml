@@ -1,0 +1,12 @@
+site_name: P2 Project Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+theme: mkdocs
+# theme: readthedocs
+plugins:
+  - mkdocstrings:
+      default_handler: python
+
+repo_name: "ryan211-hub/MkDocs-Example"
+repo_url: "https://github.com/ryan211-hub/MkDocs-Example"
